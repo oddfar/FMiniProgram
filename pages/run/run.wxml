@@ -1,0 +1,18 @@
+<!--pages/run/run.wxml-->
+
+<view class="swiper">
+  <view>
+    <image style='width:100%;' src="/pics/hello-2023.png"></image>
+  </view>
+
+</view>
+<view class="kuang">
+  <input bindinput="getzh" type="text" placeholder="请输入账号" value="{{zhanghao}}"></input>
+  <input bindinput="getmm" type="password" placeholder="请输入密码" value="{{mima}}"></input>
+  <input bindinput="getbs" type="number" placeholder="请输入步数(最多98000)" value="{{bushu}}"></input>
+  <button class="emptyBtn" bindtap="getrun">确定</button>
+</view>
+
+<view class="shuchu">
+  <text class="shuchuText">{{shuchu}}</text>
+</view>

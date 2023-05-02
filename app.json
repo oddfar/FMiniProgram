@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/parse/parse",
+    "pages/intr/intr",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/md5/index",
+    "pages/run/run",
+    "pages/run-sm/run-sm"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "selectedColor": "#f00",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/parse/parse",
+        "text": "水印",
+        "iconPath": "pics/shui.png",
+        "selectedIconPath": "pics/shui.png"
+      },
+      {
+        "pagePath": "pages/run/run",
+        "text": "步数",
+        "iconPath": "pics/bu.png",
+        "selectedIconPath": "pics/bu.png"
+      },
+      {
+        "pagePath": "pages/md5/index",
+        "text": "MD5修改",
+        "iconPath": "pics/MD5.png",
+        "selectedIconPath": "pics/MD5.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,38 @@
+/* pages/run-sm/run-sm.wxss */
+
+
+
+
+
+.content_kami_shuoming {
+    width: 90vw;
+    height: 20vh;
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+.content_shuoming_li {
+    margin-top: 0.5vh;
+    font-size: 30rpx;
+    color: #324D56;
+    margin-left: 1vw;
+}
+
+.content_shuoming_li_t {
+    margin-top: 2vh;
+    margin-bottom: 5px;
+    font-size: 35rpx;
+    color: #9374FD;
+    margin-left: 1vw;
+}
+
+.kongbaibottom {
+    height: 5vh;
+}
+
+.img{
+  width: 80%;
+  height: 500px;
+  margin-top:5px;
+  margin:0 auto;
+}

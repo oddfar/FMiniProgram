@@ -1,0 +1,226 @@
+/* pages/parse/parse.wxss */
+
+.search-row{
+        box-sizing: border-box;
+        left: 10rpx;
+        width: 97%;
+        height: 70rpx;
+        border: 1px solid #d6d5d6;
+        border-radius: 10rpx;
+        position: relative;
+        
+}
+.search-row2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 92rpx;
+}
+.search-row input{
+
+    height: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1aad19;
+    padding-left: 20rpx;
+}
+
+.search-row button:active{
+    /* transform: scale(0.5); */
+    opacity: 0.5;
+    transition: 0s;
+}
+
+.result-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    height: 92rpx;
+    margin-top: 80rpx;
+}
+
+.result-buttons1 {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    height: 92rpx;
+    margin-top: 1rpx;
+}
+
+
+.result-buttons button:active{
+    /* transform: scale(0.5); */
+    opacity: 0.5;
+    transition: 0s;
+}
+
+.result-video{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.intr-text{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    display: flex;
+    justify-content: center;
+    color: #007acc;
+}
+.addToSmallProgramClass {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    z-index: 1000;
+}
+
+.addToSmallProgramClass .center_text_div_class {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 28rpx;
+    transform: translateX(-70rpx);
+}
+
+.addToSmallProgramClass .arrow {
+    width: 100%;
+    height: 100%;
+    animation-name: addToSmallProgramClass_arrow_swing;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes addToSmallProgramClass_arrow_swing {
+    from {
+        transform: translateY(20%);
+    }
+
+    to {
+        transform: translateY(-20%);
+    }
+}
+
+@keyframes addToSmallProgramClass_arrow_swing {
+    from {
+        transform: translateY(20%);
+    }
+
+    to {
+        transform: translateY(-20%);
+    }
+}
+
+.addToSmallProgramClass .jiantou {
+    height: 43rpx;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 106rpx;
+}
+
+.addToSmallProgramClass .more {
+    width: 46rpx;
+    height: 17rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+}
+
+.addToSmallProgramClass .as-close {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30rpx;
+}
+.BottomText {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 70rpx;
+    color: #c1c7d3;
+    font-size: 20rpx;
+    margin-right: 30rpx;
+    margin-top: 90rpx;
+    font-weight: normal;
+    line-height: 30rpx;
+    margin-bottom: 70rpx;
+    position:absolute; 
+    top:100%;
+    margin-top:-50px;
+}
+.wx-swiper-dots .wx-swiper-dot {
+    display: none;
+  }
+  .pasteBtn {
+    color: white;
+    font-size: 28rpx;
+    background-color: rgb(50,77,86);
+    height: 72rpx;
+    margin-top: 20rpx;
+    right: 0%;
+    width:30%;
+}
+.pasteBtn1{
+    color: white;
+    font-size: 28rpx;
+    background-color: rgb(50,77,86);
+    height: 72rpx;
+    margin-top: 20rpx;
+    left: 10rpx;
+    width: 40%;
+}
+.pasteBtn2{
+    color: white;
+    font-size: 28rpx;
+    background-color: rgb(50,77,86);
+    height: 72rpx;
+    margin-top: 20rpx;
+    left: 1.2%;
+    width:40%;
+}
+.emptyBtn {
+    color: white;
+    font-size: 28rpx;
+    background-color: rgb(50,77,86);
+    height: 72rpx;
+    margin-top: 20rpx;
+    left: 10rpx;
+    width: 100%;
+
+}
+
+.juzhong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intr-text{
+    margin-top: 20rpx;
+    display: flex;
+    justify-content: center;
+    color: #007acc;
+}
+.paste-text{
+    text-align: center;
+    color: #000000;
+    font-size: 20rpx;
+    margin-top: 10rpx;
+    font-weight: normal;
+    line-height: 30rpx;
+    width:100%;
+
+
+}

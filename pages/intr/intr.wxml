@@ -1,0 +1,21 @@
+<view class="swiper">
+    <swiper style="height:580rpx;" indicator-dots='true' indicator-color='red' autoplay='true'>
+    <swiper-item  catchtouchmove="stopTouchMove">
+      <image style='height:100%;;width:100%;' src='../../pics/share3.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="content">
+    <view class="content_kami_shuoming">
+      <view class="content_shuoming_li_t">怎么去除水印?</view>
+        <view class="content_shuoming_li">1.打开短视频APP,在视频右下角点击分享，然后再点击[复制链接]。</view>
+        <view class="content_shuoming_li">2.打开小程序，在首页[此处粘贴分享链接]处粘贴分享的链接内容。</view>
+        <view class="content_shuoming_li">3.点击一键解析，解析完成，出现下载视频、复制视频链接功能~按需选择即可。</view>
+        <view class="content_shuoming_li_t">短视频MD5是什么?</view>
+        <view class="content_shuoming_li">   答：MD5值类似于人类的身份证，每一个MD5值对于小视频本身都是独一无二的，平台自有系统通过判断MD5值是验证视频是否重复的手段之一</view>
+        <view class="content_shuoming_li"> 修改MD5前,上传视频原创是别人的（如音频显示原作者音频，并非显示原创）</view>
+        <view class="content_shuoming_li"> 修改MD5后,上传视频原创是自己的（如音频显示xxx原创音频）</view>
+    </view>
+</view>
+
+<text class="BottomText">欢迎使用此程序</text>

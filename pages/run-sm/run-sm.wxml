@@ -1,0 +1,18 @@
+<!-- pages/run-sm/run-sm.wxml
+
+<view class="content">
+    <view class="content_kami_shuoming">
+      <view class="content_shuoming_li_t">怎么刷微信步数？</view>
+        <view class="content_shuoming_li">1.从应用商店或者浏览器下载小米运动App，打开软件并输入手机号登录，不要使用第三方账号登录</view>
+        <image class="img" src="../../pics/runsm1.png"></image>
+        <view class="content_shuoming_li">2.点击我的->第三方接入，绑定你想同步数据的项目</view>
+        <view class="content_shuoming_li">注：同步微信运动请按照要求关注公众号。</view>
+        <image class="img" src="../../pics/runsm2.png"></image>
+        <view class="content_shuoming_li">注：同步微信运动请按照要求关注公众号。</view>
+        <view class="content_shuoming_li">3.使用小程序，输入账号（手机号）密码和步数并提交。</view>
+
+    </view>
+
+</view>
+
+ -->

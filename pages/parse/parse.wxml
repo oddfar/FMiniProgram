@@ -1,0 +1,45 @@
+<!-- pages/parse/tip.wxml -->
+<view class="swiper" wx:if="{{result==null}}">
+  <swiper style="height:500rpx;" indicator-dots='true' indicator-color='red' autoplay='true'>
+    <swiper-item catchtouchmove="stopTouchMove">
+      <image style='height:100%;;width:100%;' src='../../pics/share.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- pages/parse/parse.wxml -->
+
+<view>
+  <video class="result-video" wx:if="{{result!==null}}" src="{{result.data}}"></video>
+</view>
+
+<index-attention showAddMeBtn="{{showAddMeBtn}}"></index-attention>
+<navigator class="intr-text" wx:if="{{result==null}}" url="/pages/intr/intr">使用方法</navigator>
+<view class="wrap">
+  <view class="search-row">
+    <input bindinput="getInputValue" placeholder="此处粘贴分享链接" value="{{inputValue}}"></input>
+    <view class="search-row2">
+      <button class="emptyBtn" wx:if="{{result==null}}" bindtap="verifyAndRequest">一键解析</button>
+      <view class="paste-text" wx:if="{{result!==null}}">
+        <text>{{tishi}}</text>
+      </view>
+
+    </view>
+
+  </view>
+  <!-- wx:if="{{result!==null}}" -->
+  <view class="result-buttons" wx:if="{{result!==null}}">
+    <!-- <button size="mini" bindtap="saveCover">下载封面</button> -->
+    <button class="pasteBtn1" bindtap="clearText">清空文字</button>
+    <!-- <button class="emptyBtn1" bindtap="saveVideo" wx:if="{{result.tested === true}}" >下载视频</button>-->
+    <button class="pasteBtn1" bindtap="saveVideo">下载视频</button>
+    <!-- pasteBtn2 -->
+  </view>
+
+  <view class="result-buttons1" wx:if="{{result!==null}}">
+    <button class="pasteBtn2" bindtap="copyText">复制链接</button>
+    <!-- <button class="pasteBtn2" bindtap="saveCover">下载封面</button> -->
+  </view>
+  <view></view>
+</view>
+<text class="BottomText">视频解析结果归平台及原作者所有，本应用不存储任何视频。解析出的视频仅供学习和研究使用，请勿用于非法用途如有侵权请及时联系客服，本应用对所有资源不负任何法律责任！</text>

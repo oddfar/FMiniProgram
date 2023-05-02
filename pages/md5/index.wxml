@@ -1,0 +1,46 @@
+<view class="swiper" wx:if="{{xiugaistate!==2}}">
+    <swiper style="height:580rpx;" indicator-dots='true' indicator-color='red' autoplay='true'>
+    <swiper-item  catchtouchmove="stopTouchMove">
+      <image style='height:100%;;width:100%;' src='../../pics/share2.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="content">
+    <view class="content_t">
+        <view class="content_t_x">
+            <view class="content_t_x_c" wx:if="{{xiugaistate==1}}">
+                <button bindtap="addvideobutton" class="addvideos" plain="true">
+                    <image class="content_t_x_t_image" src="/pics/create_btn_picture_add_normal_boy.png"></image>
+                </button>
+            </view>
+            <view class="content_t_x_c" wx:if="{{xiugaistate==2}}">
+                <video id="myVideo" src="{{urldata}}"></video>
+            </view>
+        </view>
+    </view>
+    <view class="content_z">
+        <view class="content_z_c" wx:if="{{xiugaistate==2}}">
+            <view class="content_z_c_time">
+                <span class="content_z_c_text">视频时间: </span>{{durationtime}}</view>
+            <view class="content_z_c_size">
+                <span class="content_z_c_text">视频大小: </span>{{videosize}}</view>
+            <view class="content_z_c_old">
+                <span class="content_z_c_text">修改前MD5: </span>{{oldmd5}}</view>
+            <view class="content_z_c_new">
+                <span class="content_z_c_text">修改后MD5: </span>{{newmd5}}</view>
+        </view>
+        <view class="content_z_c" wx:if="{{xiugaistate==1}}">
+            <view class="content_z_c_tishi">{{tishitext}}</view>
+        </view>
+    </view>
+    <view bindtap="resetvideo" class="content_reset" wx:if="{{xiugaistate==2}}"> 清空修改内容</view>
+  
+    <view class="content_x" wx:if="{{xiugaistate==2}}">
+        <view class="content_x_s">
+            <button bindtap="savevideo" class="savevideo" plain="true">
+                <image class="content_x_l_image" src="/pics/savevideo.png"></image>
+            </button>
+        </view>
+    </view>
+</view>
+<text class="BottomText"wx:if="{{xiugaistate==2}}">点击上方图标即可保存</text>
