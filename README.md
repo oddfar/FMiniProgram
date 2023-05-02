@@ -51,7 +51,7 @@ function download_file($url)
 
 | 演示图                                                       |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20230501170141371](/Users/ningzhiyuan/code/WeChatProjects/FMiniProgram-master/README.assets/image-20230501170141371.png) | ![image-20230501170329787](/Users/ningzhiyuan/code/WeChatProjects/FMiniProgram-master/README.assets/image-20230501170329787.png) | ![image-20230501170502294](/Users/ningzhiyuan/code/WeChatProjects/FMiniProgram-master/README.assets/image-20230501170502294.png) |
+| ![image-20230501170141371](pics/image-20230501170141371.png) | ![image-20230501170329787](pics/image-20230501170329787.png) | ![image-20230501170502294](pics/image-20230501170502294.png) |
 
 
 
